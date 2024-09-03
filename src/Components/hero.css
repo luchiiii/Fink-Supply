@@ -1,0 +1,228 @@
+.overDiv {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: url(.././Assets/xxx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  background-position:center;
+}
+.heroTextHolder h1 {
+  font-family: var(--ff-main-font-family);
+  font-weight: 800;
+  text-align: left;
+  font-size: 25px;
+  color: #ffffff;
+  width: 100%;
+  line-height: normal;
+}
+.heroTextHolder span {
+  color:  rgb(184, 242, 208);
+  font-family: var(--ff-main-font-family);
+  font-size: 3rem;
+}
+.heroTextHolder p {
+  font-family: var(--ff-main-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  width: 500px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.heroTextHolder button {
+  background: var(--main-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: var(--ff-main-font-family);
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.heroTextHolder button:hover {
+  background: var(--main-color-hover);
+}
+.heroTextHolder button:focus {
+  outline: var(--main-color);
+}
+.heroTextHolder button:active {
+  background: var(--main-color-active);
+}
+.trackingSection {
+  background-image: url("../Assets/tracking-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 120%;
+  padding: 60px;
+}
+.trackHolder {
+  width: 100%;
+  margin-top: -45px;
+  align-items: center;
+}
+.trackingSection {
+  align-items: center;
+}
+.trackHolder h1 {
+  font-family: var(--ff-main-font-family);
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: var(--main-color);
+}
+.trackHolder p {
+  font-family: var(--ff-main-font-family);
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  color:#ffffff;
+}
+.trackingSection input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--main-color);
+  font-family: var(--ff-main-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+
+  color: var(--main-color);
+}
+.trackingSection button {
+  background: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: var(--ff-main-font-family);
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 10px 40px;
+}
+.trackingSection button:hover {
+  background: var(--main-color);
+}
+.trackingSection button:focus {
+  outline: var(--main-color);
+}
+.trackingSection button:active {
+  background: #ffffff;
+  color: var(--main-color);
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .adjuster img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.heroTextHolder p {
+  width: 80%;
+}
+.heroTextHolder h1 {
+    font-family: var(--ff-main-font-family);
+    font-weight: 800;
+    text-align: left;
+    font-size: 40px;
+    width: 100%;
+  
+    line-height: normal;
+  }
+.overDiv {
+  height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .adjuster {
+    display: flex;
+    justify-content: space-around;
+  }
+  .heroTextHolder h1 {
+    font-family: var(--ff-main-font-family);
+    font-weight: 800;
+    text-align: left;
+    font-size: 55px;
+    width: 100%;
+
+    line-height: normal;
+  }
+}
+/* write media query for 300px to 500 */
+@media (min-width: 300px) and (max-width: 500px) {
+  .adjuster img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .heroTextHolder h1 {
+    font-family: var(--ff-main-font-family);
+    font-weight: 800;
+    text-align: left;
+    font-size: 32px;
+    width: 100%;
+    line-height: normal;
+  }
+
+  .heroTextHolder p {
+    font-family: var(--ff-main-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+
+  .heroTextHolder button {
+    background: var(--main-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: var(--ff-main-font-family);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+}
+/* @media (max-width: 700px) {
+  .adjuster {
+    display: flex;
+    justify-content: space-around;
+  }
+  .heroTextHolder h1 {
+    font-family: var(--ff-main-font-family);
+    font-weight: 800;
+    text-align: left;
+    font-size: 3rem;
+    width: 100%;
+
+    line-height: normal;
+  }
+} */
+/*
+@media (max-width: 1024px){
+    .overDiv{
+     height: 100%;
+    }
+    .adjuster{
+        display: flex;
+    }
+    .heroImage{
+        display: flex;
+        justify-content: flex-end;
+    }
+.heroImagHolder img{
+    display: none;
+}
+    } */

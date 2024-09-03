@@ -1,0 +1,41 @@
+.brand-name h1{
+    color: var(--main-color);
+    font-family: var(--ff-main-font-family);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.RouteLinks link{
+    color: var(--main-color);
+    font-family: var(--ff-main-font-family);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.book-now-btn{
+  background-color:  rgb(184, 242, 208);
+  border: none !important;
+
+    color: var(--main-color);
+    font-family: var(--ff-main-font-family);
+    font-weight: 700;
+    padding: 10px 20px;
+    outline: none !important;
+    font-size: 16px;
+
+}
+.BrandName{
+    width: 100%;
+}
+.headerholder{
+width: 100%;
+}
+/* make it responsive on mobile mostly the toggler button will be there */
+@media screen and (max-width: 768px){
+    .BrandName{
+        width: 100%;
+    }
+    .headerholder{
+        width: 100%;
+    }
+}
